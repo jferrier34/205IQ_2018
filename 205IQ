@@ -25,7 +25,7 @@ def calc_two():
     while (i < nb3):
         nb += (1 / (float(nb2) * sqrt(2 * pi))) * exp(-0.5 * pow((float(i) - float(nb1)) / float(nb2), 2))
         i+=0.01
-    print("%0.1f%% of people have a IQ inferior to %d" %(nb, nb3))
+    print("%0.1f%% of people have an IQ inferior to %d" %(nb, nb3))
     exit(0)
 
 def calc_three():
@@ -38,7 +38,7 @@ def calc_three():
     while (nb < nb4):
         i += (1 / (float(nb2) * sqrt(2 * pi))) * exp(-0.5 * pow((float(nb) - float(nb1)) / float(nb2), 2))
         nb+=0.01
-    print("%0.1f%% of people have a IQ between %d and %d" %(i, nb3, nb4))
+    print("%0.1f%% of people have an IQ between %d and %d" %(i, nb3, nb4))
     exit(0)
 
 def do_all():

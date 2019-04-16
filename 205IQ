@@ -50,6 +50,11 @@ def do_all():
         calc_three() 
 
 def help():
+    print("USAGE\n\t./205IQ u s [IQ1] [IQ2]\n")
+    print("DESCRIPTION\n\tu\tmean")
+    print("\ts\tstandard deviation")
+    print("\tIQ1\tminimum IQ")
+    print("\tIQ2\tmaximum IQ")
     exit(0)
 
 def check_error():
